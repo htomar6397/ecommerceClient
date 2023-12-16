@@ -16,7 +16,7 @@ const baseQuery = fetchBaseQuery({
   
     
     headers.set("Accept", "application/json");
-    headers.set("Access-Control-Allow-Origin", "http://localhost:5000/");
+    headers.set("Access-Control-Allow-Origin", "https://proshop-ga9a.onrender.com/");
     return headers;
   },
   // headers: {
