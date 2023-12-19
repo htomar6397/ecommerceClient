@@ -6,7 +6,7 @@ import './assets/styles/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -36,7 +36,7 @@ import ProductAddScreen from './screens/admin/ProductaddScreen';
 import ErrorScreen from "./screens/ErrorScreen";
 
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route
